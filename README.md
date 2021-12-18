@@ -6,6 +6,6 @@ Project was built using EntityFramework Core. To build database simply run 'upda
 
 XmlLoader is a console application, which validates xml against xsd and writes data to the database.
 
-Please change paths to files to your local machine.
+Please change full paths to xml and xsd files in XmlLoader accoirdingly, before you run the project.
 
 
