@@ -15,7 +15,7 @@ using Models.AutoMapperProfiles;
 //It is implemented very poorly because of lack of time
 //full path to the files is indicated meaning, everytime you move the project you have to change paths to local machine directory
 //It fully loads the document into the memory - Cant open 50gb file on 16 gb ram machine
-//if the xml is not valid, nothing is logged into the database, which is very bad
+//if the xml is not valid, whole xml is skipped and only validation errors are logged, which is very bad
 //Since the model is so complex, automapper had to be configured and since I did not have time,
 //I implemented model mapping manually
 //Validation error logging is implemented, but the only way to determine on which part of xml data got invalidated
